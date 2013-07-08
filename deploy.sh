@@ -1,4 +1,3 @@
-git push origin :source
 git push origin :master
 
 # initialize the local repository
@@ -17,6 +16,7 @@ git push -u origin source
 
 # fetch a working copy of your repository
 git clone git@github.com:[user]/[user].github.com.git output
+git clone git@github.com-minecraftfan998:minecraftfan998/minecraftfan998.github.com.git output
 cd output
 # create the isolated branch
 git symbolic-ref HEAD refs/heads/master
